@@ -22,7 +22,7 @@ let package = Package(
 ## Examples
 
 ```swift
-Digest.sha1("Hello, world!")
+let sha1 : String = Digest.sha1("Hello, world!")
 
 ```
 
