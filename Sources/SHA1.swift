@@ -118,7 +118,11 @@ class SHA1 {
       var str = ""
 
       for val in result {
-        str += String(val, radix: 16)
+        let next = String(val, radix: 16)
+        if next.characters.count == 1 {
+          str += "0"
+        }
+        str += next
       }
 
       return str
