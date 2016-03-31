@@ -21,18 +21,28 @@ let package = Package(
 
 ## Examples
 
+#### SHA1
 ```swift
 let sha1 : String = Digest.sha1("Hello, world!")
 
 ```
 
+#### Base64
+
+##### Encode
+```swift
+let encoded : String = Digest.base64Encode("Hello, world!")
+```
+
+##### Decode
 
 ## Status
 
 - [x] SHA1
 - [ ] SHA2
 - [ ] MD5
-- [ ] Base64
+- [x] Base64 Encode
+- [ ] Base64 Decode
 
 
 ## Community
