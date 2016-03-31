@@ -22,15 +22,14 @@ let package = Package(
 ## Examples
 
 ```swift
-Digest.sha1("Hello, world!")
+let sha1 : String = Digest.sha1("Hello, world!")
 
 ```
 
 
 ## Status
 
-#### Implemented
-- [ ] SHA1
+- [x] SHA1
 - [ ] SHA2
 - [ ] MD5
 - [ ] Base64
