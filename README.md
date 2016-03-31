@@ -11,8 +11,6 @@ Digest
 - [x] SHA1
 - [ ] SHA2
 - [ ] MD5
-- [x] Base64 Encode
-- [ ] Base64 Decode
 
 ## Usage
 
@@ -20,14 +18,6 @@ Digest
 
 ```swift
 let sha1: String = Digest.sha1("Hello, world!")
-```
-
-#### Base64
-
-##### Encode
-
-```swift
-let encoded: String = Digest.base64Encode("Hello, world!")
 ```
 
 ## Installation
