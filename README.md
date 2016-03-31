@@ -6,7 +6,31 @@ Digest
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](https://tldrlegal.com/license/mit-license)
 [![Slack Status](https://zewo-slackin.herokuapp.com/badge.svg)](http://slack.zewo.io)
 
-## Install
+## Status
+
+- [x] SHA1
+- [ ] SHA2
+- [ ] MD5
+- [x] Base64 Encode
+- [ ] Base64 Decode
+
+## Usage
+
+#### SHA1
+
+```swift
+let sha1: String = Digest.sha1("Hello, world!")
+```
+
+#### Base64
+
+##### Encode
+
+```swift
+let encoded: String = Digest.base64Encode("Hello, world!")
+```
+
+## Installation
 
 ```swift
 import PackageDescription
@@ -18,32 +42,6 @@ let package = Package(
 )
 
 ```
-
-## Examples
-
-#### SHA1
-```swift
-let sha1 : String = Digest.sha1("Hello, world!")
-
-```
-
-#### Base64
-
-##### Encode
-```swift
-let encoded : String = Digest.base64Encode("Hello, world!")
-```
-
-##### Decode
-
-## Status
-
-- [x] SHA1
-- [ ] SHA2
-- [ ] MD5
-- [x] Base64 Encode
-- [ ] Base64 Decode
-
 
 ## Community
 
