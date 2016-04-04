@@ -44,4 +44,4 @@ License
 
 **Digest** is released under the MIT license. See LICENSE for details.
 
-Based on CryptoSwift by Marcin Krzyżanowski <marcin.krzyzanowski@gmail.com>
+Based on [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) by Marcin Krzyżanowski <marcin.krzyzanowski@gmail.com>
