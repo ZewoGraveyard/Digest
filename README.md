@@ -43,3 +43,4 @@ License
 -------
 
 **Digest** is released under the MIT license. See LICENSE for details.
+SHA1 Algorithm Copyright (C) 2014 Marcin Krzyżanowski <marcin.krzyzanowski@gmail.com>
