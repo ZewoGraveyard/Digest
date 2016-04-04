@@ -44,4 +44,4 @@ License
 
 **Digest** is released under the MIT license. See LICENSE for details.
 
-SHA1 Implementation - Copyright (C) 2014 Marcin Krzyżanowski <marcin.krzyzanowski@gmail.com>
+Based on CryptoSwift by Marcin Krzyżanowski <marcin.krzyzanowski@gmail.com>
